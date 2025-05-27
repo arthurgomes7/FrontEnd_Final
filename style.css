@@ -1,0 +1,8 @@
+main {
+    background-image: url(images/wallpaper2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
