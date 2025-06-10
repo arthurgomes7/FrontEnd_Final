@@ -64,7 +64,7 @@
     </main>
     <section class="projeto py-5" id="objetivo">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center flex-md-column flex-xl-row">
           <div class="col-md-6">
             <div class="projeto-title py-2">
               <h2 class="fw-bold fs-1">O projeto Agiliz<strong class="main-totem">AI</strong></h2>
@@ -134,16 +134,16 @@
                 <p class="fs-5">Quando chegar a vez do paciente, o sistema o chama automaticamente para o guichê, sala ou setor correspondente.</p>
               </ol>
             </div>
-            <div class="images flex-md-column gap-3">
-              <img src="images/fila virtual.png" class="img-fluid" alt="...">
-              <img src="images/fila1.png" class="img-fluid" alt="...">
-              <img src="images/fila2.png" class="img-fluid" alt="...">
+            <div class="d-flex images flex-md-row gap-3">
+              <div><img src="images/fila virtual.png" class="img-fluid" alt="..."></div>
+              <div><img src="images/fila1.png" class="img-fluid" alt="..."></div>
+              <div><img src="images/fila2.png" class="img-fluid" alt="..."></div>
             </div>
           </div>
         </div>
-        <div class="d-flex flex-column flex-md-row gap-0 gap-md-4 mb-4">
-          <div class="fila text-start d-flex gap-2 flex-column flex-md-row">
-            <div class="content d-flex flex-column gap-2">
+        <div class="d-flex flex-column flex-md-col gap-0 gap-md-4 mb-4 flex-md-row flex-xl-row">
+          <div class="fila text-start d-flex gap-2 flex-column">
+            <div class="content d-flex flex-column gap-2 flex-md-column">
               <h1 class="fw-bold">FICHA RÁPIDA</h1>
               <p class="fs-5">A funcionalidade de preenchimento rápido permite que pacientes atualizem ou preencham informações obrigatórias diretamente no totem de autoatendimento ou aplicativo, sem necessidade de formulários em papel.</p>
               <ol>
@@ -164,7 +164,9 @@
                 <p class="fs-5">Após a conclusão, os dados são automaticamente enviados para o sistema da clínica/hospital, prontos para uso.</p>
               </ol>
             </div>
-            <img src="images/dados pessoais.png" class="img-fluid" alt="...">
+            <div>
+              <img src="images/dados pessoais.png" class="img-fluid" alt="...">
+            </div>
           </div>
         </div>
         <div class="d-flex flex-column flex-md-row gap-0 gap-md-4 mb-4">
@@ -190,11 +192,18 @@
                 <p class="fs-5">Após a conclusão, os dados são automaticamente enviados para o sistema da clínica/hospital, prontos para uso.</p>
               </ol>
             </div>
-            <div class="images d-flex flex-column gap-5 flex-md-row">
-              <img src="images/triagem1.png" class="img-fluid" alt="...">
-              <img src="images/triagem2.png" class="img-fluid" alt="...">
-              <img src="images/triagem3.png" class="img-fluid" alt="...">
+            <div class="images d-flex gap-5 flex-md-row flex-xl-col">
+              <div>
+                <img src="images/triagem1.png" class="img-fluid" alt="...">
+              </div>
+              <div>
+                <img src="images/triagem2.png" class="img-fluid" alt="...">
+              </div>
+              <div>
+                <img src="images/triagem3.png" class="img-fluid" alt="...">
+              </div>
             </div>
+
           </div>
         </div>
       </div>
